@@ -1,0 +1,461 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="title: Hexo+Github打造个人主页date: 20220218 00:31:44tags: Github个人网页博客制作教程 知乎教程 模板 Github开源模板知乎 https:&#x2F;&#x2F;github.com&#x2F;huangshiyu13&#x2F;webtemplete https:&#x2F;&#x2F;github.com&#x2F;imuncle&#x2F;gitblog 博客框架搭建Hexo 官网：Hexo 教程：知乎 Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2022/02/18/Hexo-Github%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="title: Hexo+Github打造个人主页date: 20220218 00:31:44tags: Github个人网页博客制作教程 知乎教程 模板 Github开源模板知乎 https:&#x2F;&#x2F;github.com&#x2F;huangshiyu13&#x2F;webtemplete https:&#x2F;&#x2F;github.com&#x2F;imuncle&#x2F;gitblog 博客框架搭建Hexo 官网：Hexo 教程：知乎 Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/assets/image_1645108268817_0.png">
+<meta property="og:image" content="http://example.com/assets/image_1645109697282_0.png">
+<meta property="og:image" content="http://example.com/assets/image_1645110415898_0.png">
+<meta property="article:published_time" content="2022-02-17T16:17:50.004Z">
+<meta property="article:modified_time" content="2022-02-17T16:35:31.995Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/assets/image_1645108268817_0.png">
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-02-18 00:17" pubdate>
+        February 18, 2022 am
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      3.8k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      32 分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none"></h1>
+            
+            <div class="markdown-body">
+              <p>title: Hexo+Github打造个人主页<br>date: 20220218 00:31:44<br>tags:</p>
+<h1 id="Github个人网页博客制作教程"><a href="#Github个人网页博客制作教程" class="headerlink" title="Github个人网页博客制作教程"></a>Github个人网页博客制作教程</h1><p> <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/91652100">知乎教程</a></p>
+<h2 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h2><p> <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/39388850">Github开源模板知乎</a><br> <a target="_blank" rel="noopener" href="https://github.com/huangshiyu13/webtemplete">https://github.com/huangshiyu13/webtemplete</a><br> <a target="_blank" rel="noopener" href="https://github.com/imuncle/gitblog">https://github.com/imuncle/gitblog</a></p>
+<h2 id="博客框架搭建"><a href="#博客框架搭建" class="headerlink" title="博客框架搭建"></a>博客框架搭建</h2><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p> 官网：<a target="_blank" rel="noopener" href="https://hexo.io/zhcn/index.html">Hexo</a><br> 教程：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/85037427">知乎</a><br> <a target="_blank" rel="noopener" href="https://hexo.io/zhcn/index.html">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。即把用户的markdown文件，按照指定的主题解析成静态网页。</p>
+<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><h3 id="1-1依赖安装"><a href="#1-1依赖安装" class="headerlink" title="1.1依赖安装"></a>1.1依赖安装</h3><p> Hexo平台依赖node.js以及Git,所以需要在主机上下载安装。<br>     安装node.js<br>     <a target="_blank" rel="noopener" href="http://nodejs.cn/download/">node.js地址</a>          <a target="_blank" rel="noopener" href="https://blog.csdn.net/chanyeolchichi/article/details/121348541">安装指南</a><br>     <a target="_blank" rel="noopener" href="https://gitscm.com/">git地址</a>                  <a target="_blank" rel="noopener" href="https://blog.csdn.net/mukes/article/details/115693833">安装指南</a></p>
+<h3 id="1-2Hexo安装"><a href="#1-2Hexo安装" class="headerlink" title="1.2Hexo安装"></a>1.2Hexo安装</h3> <figure class="highlight pgsql"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></div></td><td class="code"><pre><code class="hljs pgsql">$ npm install hexocli g<br>added <span class="hljs-number">59</span> packages, <span class="hljs-keyword">and</span> audited <span class="hljs-number">60</span> packages <span class="hljs-keyword">in</span> <span class="hljs-number">13</span>s<br><br><span class="hljs-number">14</span> packages are looking <span class="hljs-keyword">for</span> funding<br>  run `npm fund` <span class="hljs-keyword">for</span> details<br><br><span class="hljs-built_in">found</span> <span class="hljs-number">0</span> vulnerabilities<br>npm <span class="hljs-keyword">notice</span><br>npm <span class="hljs-keyword">notice</span> <span class="hljs-built_in">New</span> minor <span class="hljs-keyword">version</span> <span class="hljs-keyword">of</span> npm available! <span class="hljs-number">8.3</span><span class="hljs-number">.1</span> &gt; <span class="hljs-number">8.5</span><span class="hljs-number">.0</span><br>npm <span class="hljs-keyword">notice</span> Changelog: &lt;https://github.com/npm/cli/releases/tag/v8<span class="hljs-number">.5</span><span class="hljs-number">.0</span>&gt;<br>npm <span class="hljs-keyword">notice</span> Run `npm install g npm@<span class="hljs-number">8.5</span><span class="hljs-number">.0</span>` <span class="hljs-keyword">to</span> <span class="hljs-keyword">update</span>!<br>npm <span class="hljs-keyword">notice</span><br></code></pre></td></tr></table></figure>
+<h3 id="1-3建站"><a href="#1-3建站" class="headerlink" title="1.3建站"></a>1.3建站</h3><p> 安装完Hexo之后，执行下列命令，Hexo将会在指定目录中新建所需要的文件，指定的目录即为Hexo的工作站<br>  <figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">$ hexo init &lt;folder&gt;<br><span class="hljs-keyword">INFO</span>  Cloning hexostarter https://github.com/hexojs/hexostarter.git<br><span class="hljs-keyword">INFO</span>  Install dependencies<br><span class="hljs-keyword">INFO</span>  <span class="hljs-keyword">Start</span> blogging <span class="hljs-keyword">with</span> Hexo!<br></code></pre></td></tr></table></figure><br>  新建完成之后，指定目录中的情况如下<br>  <figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs sqf">├── <span class="hljs-variable">_config</span>.yml<br>├── package.json<br>├── scaffolds<br>├── source<br>|   ├── <span class="hljs-variable">_drafts</span><br>|   └── <span class="hljs-variable">_posts</span><br>└── themes<br></code></pre></td></tr></table></figure></p>
+<h3 id="1-4预览"><a href="#1-4预览" class="headerlink" title="1.4预览"></a>1.4预览</h3> <figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">$Hexo serve <span class="hljs-comment">#发布</span><br>INFO  Validating config<br>INFO  Start processing<br>INFO  Hexo is running <span class="hljs-keyword">at</span> <span class="hljs-keyword">http</span>://localhost:<span class="hljs-number">4000</span>/ . Press Ctrl+C <span class="hljs-built_in">to</span> <span class="hljs-built_in">stop</span>.<br><span class="hljs-comment">#注意是http不是https</span><br></code></pre></td></tr></table></figure>
+<p> 打开后可以看到默认界面<br> <img src="/../assets/image_1645108268817_0.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<h2 id="2-创作"><a href="#2-创作" class="headerlink" title="2.创作"></a>2.创作</h2><h3 id="2-1新建页面"><a href="#2-1新建页面" class="headerlink" title="2.1新建页面"></a>2.1新建页面</h3><p> 新页面以markdown格式生成在source&#x2F;_post文件夹下<br> <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros">$ hexo new <span class="hljs-string">&#x27;My first blog&#x27;</span>  # <span class="hljs-keyword">or</span> hexo n <br><span class="hljs-built_in">INFO</span>  Validating<span class="hljs-built_in"> config</span><br><span class="hljs-built_in"></span><span class="hljs-built_in">INFO</span>  Created: F:\OneDrive  zju.edu.cn\Blog\source\_posts\Myfirstblog.md<br></code></pre></td></tr></table></figure></p>
+<h3 id="2-2清理，生成，发布网页"><a href="#2-2清理，生成，发布网页" class="headerlink" title="2.2清理，生成，发布网页"></a>2.2清理，生成，发布网页</h3> <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs routeros">$ hexo clean<br><span class="hljs-built_in">INFO</span>  Validating<span class="hljs-built_in"> config</span><br><span class="hljs-built_in"></span><span class="hljs-built_in">INFO</span>  Deleted database.<br><br>$ hexo generate # <span class="hljs-keyword">or</span> hexo g<br><span class="hljs-built_in">INFO</span>  Validating<span class="hljs-built_in"> config</span><br><span class="hljs-built_in"></span><span class="hljs-built_in">INFO</span>  Start processing<br><span class="hljs-built_in">INFO</span>  Files loaded <span class="hljs-keyword">in</span> 101 ms<br><br>$ hexo serve # <span class="hljs-keyword">or</span> hexo s<br></code></pre></td></tr></table></figure>
+<h2 id="3-Github部署"><a href="#3-Github部署" class="headerlink" title="3.Github部署"></a>3.Github部署</h2><p> 本地构建了网页内容之后可以借助github的免费网站进行发布，同时可以将网页内容放置在github存储库以进行版本空置。</p>
+<h3 id="3-1创建github-io仓库"><a href="#3-1创建github-io仓库" class="headerlink" title="3.1创建github.io仓库"></a>3.1创建github.io仓库</h3><p> 注册github账户<br> 右侧加号New repository<br> 名称必须于Owner相同<br> <img src="/../assets/image_1645109697282_0.png" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<h3 id="3-2本地安装插件"><a href="#3-2本地安装插件" class="headerlink" title="3.2本地安装插件"></a>3.2本地安装插件</h3><p> 安装cnpm，更改为淘宝镜像源<br> <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">npm install g cnpm registry=https:<span class="hljs-regexp">//</span>registry.npm.taobao.org <br></code></pre></td></tr></table></figure><br> 打开Hexo博客根目录，安装hexodeployergit插件<br> <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">cnpm <span class="hljs-keyword">install</span> save hexodeployergit<br></code></pre></td></tr></table></figure><br> 更改_config.yml配置文件<br> repo为仓库地址，打开github.io，复制地址<br> <img src="/../assets/image_1645110415898_0.png" srcset="/img/loading.gif" lazyload alt="image.png"><br> <figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-meta"># Deployment</span><br><span class="hljs-meta">## Docs: https:<span class="hljs-comment">//hexo.io/docs/onecommanddeployment</span></span><br><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> https:<span class="hljs-comment">//github.com/Simple53/Simple53.github.io.git</span><br><span class="hljs-symbol">  brach:</span> master<br></code></pre></td></tr></table></figure></p>
+<p> 部署<br> <figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crystal"><span class="hljs-variable">$ </span>hexo d<br></code></pre></td></tr></table></figure><br> 报错<br> <figure class="highlight roboconf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (F:\OneDrive  zju<span class="hljs-variable">.edu</span><span class="hljs-variable">.cn</span>\Blog\node_modules\_hexoutil@2.6.0@hexoutil\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (node:events:520:28)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (F:\OneDrive  zju<span class="hljs-variable">.edu</span><span class="hljs-variable">.cn</span>\Blog\node_modules\_crossspawn@7.0.3@crossspawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (node:internal/child_process:291:12) &#123;<br>    code: 1<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure></p>
+<p> 原因是目前更改为了main分支<br> <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">INFO</span>  Deploy done: git<br></code></pre></td></tr></table></figure><br> 成功部署</p>
+<h2 id="4-Hexo主题更换"><a href="#4-Hexo主题更换" class="headerlink" title="4.Hexo主题更换"></a>4.Hexo主题更换</h2><h3 id="1-寻找主题"><a href="#1-寻找主题" class="headerlink" title="1.寻找主题"></a>1.寻找主题</h3><p> hexo社区提供了很多配套主题，可以直接在Github上搜索hexo theme，接下来我们以hexothemefluid为例进行演示。</p>
+<h3 id="2-下载主题"><a href="#2-下载主题" class="headerlink" title="2.下载主题"></a>2.下载主题</h3><p> 方法一：gitclone<br> <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">git clone https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/fluiddev/</span>hexothemefluid.git themes/fluid<br></code></pre></td></tr></table></figure><br> 方法二：<br> 手动下载之后放置在Hexo文件夹下的themes目录中</p>
+<h3 id="3-更改配置"><a href="#3-更改配置" class="headerlink" title="3.更改配置"></a>3.更改配置</h3><p> 更改_config.yml文件<br> <figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">theme : <span class="hljs-type">fluid</span><br></code></pre></td></tr></table></figure></p>
+<h3 id="4-清除、生成、发布"><a href="#4-清除、生成、发布" class="headerlink" title="4.清除、生成、发布"></a>4.清除、生成、发布</h3> <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">hexo clean <span class="hljs-regexp">//</span>清除一下缓存<br>hexo g  <span class="hljs-regexp">//</span>生成静态页面<br>hexo s <span class="hljs-regexp">//</span>开启本地服务器<br></code></pre></td></tr></table></figure>
+<p> Fluid标志<br> <figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs gherkin"><br>|<span class="hljs-string">                                              </span>|<br>|<span class="hljs-string">     ________  __            _        __      </span>|<br>|<span class="hljs-string">    </span>|<span class="hljs-string">_   __  </span>|<span class="hljs-string">[  </span>|<span class="hljs-string">          (_)      </span>|<span class="hljs-string">  ]     </span>|<br>|<span class="hljs-string">      </span>|<span class="hljs-string"> </span>|<span class="hljs-string">_ \_</span>|<span class="hljs-string"> </span>|<span class="hljs-string"> </span>|<span class="hljs-string"> __   _   __   ..</span>|<span class="hljs-string"> </span>|<span class="hljs-string">      </span>|<br>|<span class="hljs-string">      </span>|<span class="hljs-string">  _</span>|<span class="hljs-string">    </span>|<span class="hljs-string"> </span>|<span class="hljs-string">[  </span>|<span class="hljs-string"> </span>|<span class="hljs-string"> </span>|<span class="hljs-string"> [  </span>|<span class="hljs-string">/ /&#x27;`\&#x27; </span>|<span class="hljs-string">      </span>|<br>|<span class="hljs-string">     _</span>|<span class="hljs-string"> </span>|<span class="hljs-string">_     </span>|<span class="hljs-string"> </span>|<span class="hljs-string"> </span>|<span class="hljs-string"> \_/ </span>|<span class="hljs-string">, </span>|<span class="hljs-string"> </span>||<span class="hljs-string"> \__/  </span>|<span class="hljs-string">      </span>|<br>|<span class="hljs-string">    </span>|<span class="hljs-string">_____</span>|<span class="hljs-string">   [___]&#x27;.__.&#x27;_/[___]&#x27;.__.;__]     </span>|<br>|<span class="hljs-string">                                              </span>|<br>|<span class="hljs-string">       Thank you for using Fluid theme !      </span>|<br>|<span class="hljs-string">   Docs: https://hexo.fluiddev.com/docs/en/  </span>|<br>|<span class="hljs-string">                                              </span>|<br><br></code></pre></td></tr></table></figure></p>
+<h2 id="5-主题推荐"><a href="#5-主题推荐" class="headerlink" title="5.主题推荐"></a>5.主题推荐</h2><p> 整理 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/wiki/Themes">https://github.com/hexojs/hexo/wiki/Themes</a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/ShenYu/hexothemeayer">Ayer</a></strong>  A Clean and Beautiful Theme for Hexo, also Responsive.  <a target="_blank" rel="noopener" href="https://shenyu.gitee.io/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/moretwo/hexotheme">Mabao</a></strong>  Less is more,Designer theme on <a target="_blank" rel="noopener" href="https://github.com/moretwo/hexotheme">the mabaotheme</a>  <a target="_blank" rel="noopener" href="http://moretwo.github.io/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/heroicyang/hexothememodernist">Modernist</a></strong>  A theme with <a target="_blank" rel="noopener" href="http://duoshuo.com/">duoshuo</a> comments. Based on the <a target="_blank" rel="noopener" href="https://github.com/orderedlist/modernist">GitHub Pages Modernist theme</a>  <a target="_blank" rel="noopener" href="http://heroicyang.com/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/sun11/hexothemepaperbox">Paperbox</a></strong>  A responsive paperlike theme, based on <a target="_blank" rel="noopener" href="https://github.com/xiangming/landscapeplus">Landscape plus</a>  <a target="_blank" rel="noopener" href="http://sun11.me/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/heruoxin/hexopersonacolor">Persona Color</a></strong>  A responsive theme with 4 color schemes. Based on <a target="_blank" rel="noopener" href="https://github.com/thiagopnts/hexopersonadark">Persona Dark</a>.  <a target="_blank" rel="noopener" href="https://www.1ittlecup.com/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/SuperKieran/TKL">TKL</a></strong>  A responsive design theme for Hexo. 一个设计优雅的响应式主题  <a target="_blank" rel="noopener" href="http://go.kieran.top/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/Youthink/hexothemesyearn">Yearn</a></strong>  Simple style responsive 简洁优雅的响应式主题  <a target="_blank" rel="noopener" href="https://hufangyun.com/"><strong><em>Demo</em></strong></a><br>     <strong><a target="_blank" rel="noopener" href="https://github.com/JoeyBling/hexothemeyiliaplus">Yiliaplus</a></strong>  A simple and elegant theme for hexo 优雅简洁响应式主题  <a target="_blank" rel="noopener" href="https://joeybling.github.io/"><strong><em>Demo</em></strong></a></p>
+<p> 个人推荐<br> <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexothemebutterfly">butterfly</a><br> <a target="_blank" rel="noopener" href="https://github.com/LouisBarranqueiro/hexothemetranquilpeak">tranquilpeak</a><br> <a target="_blank" rel="noopener" href="https://github.com/fluiddev/hexothemefluid">fluid</a></p>
+<p> 经典主题<br> <a target="_blank" rel="noopener" href="https://github.com/themenext/hexothemenext">themenext&#x2F;hexothemenext: Elegant and powerful theme for Hexo. (github.com)</a><br> <a target="_blank" rel="noopener" href="https://github.com/fluiddev/hexothemefluid">fluiddev&#x2F;hexothemefluid: 一款 Material Design 风格的 Hexo 主题 &#x2F; An elegant MaterialDesign theme for Hexo (github.com)</a></p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av44544186">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo</a></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/02/18/%E6%9B%B4%E6%94%B9hexo%E9%85%8D%E7%BD%AE/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">更改hexo配置</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/02/17/My-first-blog/">
+                        <span class="hidden-mobile">My first blog</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
